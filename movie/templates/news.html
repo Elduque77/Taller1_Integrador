@@ -1,6 +1,35 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-<h1 class="mb-4">Noticias</h1>
-<p>Sección de noticias de la aplicación.</p>
+<div class="container my-4">
+    <h1 class="mb-4">Noticias</h1>
+    
+    <div class="row">
+        {% for new in news %}
+        <div class="col-12 mb-3">
+            <div class="card h-100">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-4">
+                        {% if new.image %}
+                        <img src="{{ new.image.url }}" class="img-fluid rounded-start w-100" style="height: 200px; object-fit: cover;" alt="{{ new.headline }}">
+                        {% else %}
+                        <img src="{% static 'movie/images/logo.png' %}" class="img-fluid rounded-start w-100" style="height: 200px; object-fit: cover;" alt="Noticia">
+                        {% endif %}
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ new.headline }}</h5>
+                            <p class="card-text">{{ new.body }}</p>
+                            <p class="card-text">
+                                <small class="text-muted">Fecha: {{ new.date }}</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}
