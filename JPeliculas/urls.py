@@ -27,5 +27,9 @@ urlpatterns = [
     path('news/', include('news.urls')),
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+# Servir archivos de medios en desarrollo
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
 

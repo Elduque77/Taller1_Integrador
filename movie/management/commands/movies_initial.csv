@@ -1,5 +1,11 @@
-title,description,image,url
-The Shawshank Redemption,Two imprisoned men bond over a number of years finding solace and eventual redemption through acts of common decency.,movie/images/default.png,https://www.imdb.com/title/tt0111161/
-The Godfather,The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.,movie/images/default.png,https://www.imdb.com/title/tt0068646/
-The Dark Knight,When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.,movie/images/default.png,https://www.imdb.com/title/tt0468569/
-Inception,A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.,movie/images/default.png,https://www.imdb.com/title/tt1375666/
+title,description,image,url,genre,year
+Sueño de fuga,Dos hombres encarcelados forjan una amistad a lo largo de varios años buscando la redención.,movie/images/default.jpg,https://www.imdb.com/title/tt0111161/,Drama,1994
+El Padrino,El envejecido patriarca de una dinastía del crimen organizado transfiere el control a su hijo.,movie/images/default.jpg,https://www.imdb.com/title/tt0068646/,Crimen,1972
+El caballero de la noche,Batman enfrenta el caos provocado por el Guasón en la ciudad de Gótica.,movie/images/default.jpg,https://www.imdb.com/title/tt0468569/,Acción,2008
+El origen,Un ladrón que roba secretos a través del sueño recibe la tarea de plantar una idea.,movie/images/default.jpg,https://www.imdb.com/title/tt1375666/,Ciencia Ficción,2010
+Tiempos violentos,Las vidas de dos asesinos a sueldo de la mafia se entrelazan en historias inesperadas.,movie/images/default.jpg,https://www.imdb.com/title/tt0110912/,Crimen,1994
+El club de la pelea,Un empleado de oficina insatisfecho forma un club de lucha clandestino.,movie/images/default.jpg,https://www.imdb.com/title/tt0137523/,Drama,1999
+Forrest Gump,La historia de EE. UU. se desenvuelve a través de la perspectiva de un hombre especial.,movie/images/default.jpg,https://www.imdb.com/title/tt0109830/,Romance,1994
+Matrix,Un hacker descubre la verdadera naturaleza de la realidad y su rol en la rebelión.,movie/images/default.jpg,https://www.imdb.com/title/tt0133093/,Ciencia Ficción,1999
+Interestelar,Un equipo de exploradores viaja a través de un agujero de gusano para salvar la humanidad.,movie/images/default.jpg,https://www.imdb.com/title/tt0816692/,Aventura,2014
+Gladiador,Un exgeneral romano busca venganza contra el corrupto emperador que asesinó a su familia.,movie/images/default.jpg,https://www.imdb.com/title/tt0172495/,Acción,2000
